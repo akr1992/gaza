@@ -144,4 +144,8 @@ Press Esc
     :wq //for exiting and saving
     :q! //for exiting without saving
     
+ <span data-coinwidget-instance="0" class="COINWIDGETCOM_CONTAINER"><a class="COINWIDGETCOM_BUTTON_BITCOIN" href="#"><img src="http://coinwidget.com/widget/icon_bitcoin.png"><span>Donate Bitcoin</span></a><span>0</span></span>
+ 
+ 
+ 
  UY6suqgq1DXHeJtjhjTN6m8Rqkwy4H82P2
