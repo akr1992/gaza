@@ -1,5 +1,5 @@
 .Requirements:
-
+<b><a href="https://play.google.com/store/apps/details?id=com.realvnc.viewer.android" target="_blank">VNC viewer</a></b>
  termux-setup-storage
  
  pkg install wget
