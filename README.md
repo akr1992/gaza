@@ -32,5 +32,20 @@ $ git clone https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0
  
  wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.29/cpuminer-opt-linux.tar.gz
  
- 
+ Normal text editors are nano, or vi.
+
+For example:
+
+root@user:# nano galfit.feedme
+or
+
+root@user:# vi galfit.feedme
+
+For exiting
+
+Press Esc
+
+    :wq //for exiting and saving
+    :q! //for exiting without saving
+    
  UY6suqgq1DXHeJtjhjTN6m8Rqkwy4H82P2
