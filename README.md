@@ -30,5 +30,7 @@ $ git clone https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0
  $ git clone https://github.com/rplant8/cpuminer-opt-rplant/archive/refs/tags/5.0.29.tar.gz
  
  
+ wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.29/cpuminer-opt-linux.tar.gz
+ 
  
  UY6suqgq1DXHeJtjhjTN6m8Rqkwy4H82P2
