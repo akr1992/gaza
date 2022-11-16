@@ -1,5 +1,18 @@
 .Requirements:
+
+<p dir="ltr"><span style="font-size: medium;"><b><a href="http://termux.com" target="_blank">Termux</a></b><br></span></p>
+
+
 <b><a href="https://play.google.com/store/apps/details?id=com.realvnc.viewer.android" target="_blank">VNC viewer</a></b>
+
+
+<div class="ytp-cued-thumbnail-overlay-image" style="background-image: url(&quot;https://i.ytimg.com/vi_webp/eU6j1HwhBVk/sddefault.webp&quot;);"></div>
+
+
+
+
+
+
  termux-setup-storage
  
  pkg install wget
