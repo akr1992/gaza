@@ -8,31 +8,6 @@
 ****
 
 
-
-<div class="entry-header blog-entry-header has-meta">
-<nav id="breadcrumb"><a class="home" href="https://technical-bot.blogspot.com/">Home</a></nav>
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://technical-bot.blogspot.com/"},{"@type":"ListItem","position":2,"name":"Uncategorized","item":"https://technical-bot.blogspot.com/search/"},{"@type":"ListItem","position":3,"name":"How to install Ubuntu GNOME Desktop on Android with Termux | No Root","item":"https://technical-bot.blogspot.com/2022/10/how-to-install-ubuntu-gnome-desktop-on.html"}]}</script>
-<h1 class="entry-title">How to install Ubuntu GNOME Desktop on Android with Termux | No Root</h1>
-<div class="entry-meta">
-<div class="align-left">
-<span class="entry-author"><span class="author-avatar lazy-ify" data-image="//3.bp.blogspot.com/-yZX_B1nAmAg/YVSxHTzvTOI/AAAAAAAAADU/UIaX-o32jakfvW4j1abqYIJwF4NpicetQCK4BGAYYCw/w72-h72-p-k-no-nu/20210606_191532.jpg" style="background-image:url(https://3.bp.blogspot.com/-yZX_B1nAmAg/YVSxHTzvTOI/AAAAAAAAADU/UIaX-o32jakfvW4j1abqYIJwF4NpicetQCK4BGAYYCw/w26-h26-p-k-no-nu/20210606_191532.jpg)"></span>
-<span class="by">by</span><span class="author-name">Technical Bot</span></span>
-<span class="entry-time"><span class="on">Published on</span><time class="published" datetime="2022-10-27T07:41:00-07:00">October 27, 2022</time></span>
-</div>
-<div class="align-right">
-<span class="entry-comments-link show">0</span>
-</div>
-</div>
-</div>
-<div class="entry-content-wrap">
-<div class="post-body entry-content" id="post-body">
-
-<ins class="adsbygoogle" data-ad-client="ca-pub-4676723305138770" data-ad-format="fluid" data-ad-layout="in-article" data-ad-slot="8676836602" style="display:block; text-align:center;"><iframe id="aswift_1" style="height: 1px !important; max-height: 1px !important; max-width: 1px !important; width: 1px !important;"><iframe id="google_ads_frame1"></iframe></iframe></ins>
-
-<p><span style="font-size: medium;">&nbsp;</span></p><div class="separator" style="clear: both; text-align: center;"><span style="font-size: medium;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglD5v-g528TEcyo6vzb32ic5Wb1jOZSPeP5zlQfoBt4u4Uv_qCkeZWGX1a53ov2PTI-8KxbaXcqfOffcGbwBzjiX9pKlXlmsVAe8_32jFpM9E5z0gxZ07MpyOLv-zDsSpfMbjyPZWtm0_2Haz2Qqgmk6XLnOPoFSyRHxQAONJ-8Ifi2L4t7YJ8j5vX/s1280/2022-10-27_20-09-34.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglD5v-g528TEcyo6vzb32ic5Wb1jOZSPeP5zlQfoBt4u4Uv_qCkeZWGX1a53ov2PTI-8KxbaXcqfOffcGbwBzjiX9pKlXlmsVAe8_32jFpM9E5z0gxZ07MpyOLv-zDsSpfMbjyPZWtm0_2Haz2Qqgmk6XLnOPoFSyRHxQAONJ-8Ifi2L4t7YJ8j5vX/s320/2022-10-27_20-09-34.jpg" width="320" height="180" border="0"></a></span></div><span style="font-size: medium;"><br></span><p></p><p dir="ltr"><span style="font-size: medium;">Ubuntu uses GNOME as their default desktop. So, In this article we will see how we can install Ubuntu GNOME Desktop on Android via Termux and you don't need root access to install it.<br></span></p>
-<p dir="ltr"><span style="font-size: medium;">As GNOME uses systemd which cannot be used in Android without root so will uses GNOME flashback which doesn't require systemd.<br></span></p><p dir="ltr"><span style="font-size: medium;"><br></span></p>
-<h3 style="text-align: left;"><span style="font-size: large;">Prerequisite :</span></h3>
-<p dir="ltr"><span style="font-size: medium;"><b><a href="http://termux.com" target="_blank">Termux</a></b><br></span></p><p dir="ltr"><span style="font-size: medium;"><b><a href="https://play.google.com/store/apps/details?id=com.realvnc.viewer.android" target="_blank">VNC viewer</a></b></span></p><p dir="ltr"><span style="font-size: medium;"><b><br></b></span></p><p dir="ltr"><span style="font-size: medium;"></span></p><div class="separator" style="clear: both; text-align: center;"><span style="font-size: medium;"><iframe allowfullscreen="" class="BLOG_video_class" src="https://www.youtube.com/embed/eU6j1HwhBVk" youtube-src-id="eU6j1HwhBVk" width="320" height="266"></iframe></span></div><span style="font-size: medium;"><br><b><br></b></span><p></p><p dir="ltr"><span style="font-size: medium;"><b><br></b></span></p>
 <h3 style="text-align: left;"><span style="font-size: large;">Installation :</span></h3><div><span style="font-size: large;"><br></span></div>
 <p dir="ltr"><span style="font-size: medium;">So first we need to install proot-distro <br></span></p><p dir="ltr"><span style="font-size: medium;"><br></span></p>
 <p dir="ltr"><span style="font-size: medium;"></span></p><blockquote><span style="font-size: medium;">pkg update &amp;&amp; pkg install proot-distro </span></blockquote><span style="font-size: medium;"><br><br></span><p></p>
