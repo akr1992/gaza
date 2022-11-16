@@ -1,4 +1,12 @@
 .Requirements:
+
+kali@kali:~$ termux-setup-storage
+kali@kali:~$ pkg install wget
+kali@kali:~$ wget -O install-nethunter-termux https://offs.ec/2MceZWr
+kali@kali:~$ chmod +x install-nethunter-termux
+kali@kali:~$ ./install-nethunter-termux
+
+
 ---------------
 
 Intel Core2 or newer, or AMD Steamroller or newer CPU. ARM CPUs are not
