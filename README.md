@@ -144,7 +144,7 @@ Press Esc
     :wq //for exiting and saving
     :q! //for exiting without saving
     
- <span data-coinwidget-instance="0" class="COINWIDGETCOM_CONTAINER"><a class="COINWIDGETCOM_BUTTON_BITCOIN" href="#"><img src="http://coinwidget.com/widget/icon_bitcoin.png"><span>Donate Bitcoin</span></a><span>0</span></span>
+ <span data-coinwidget-instance="0" class="COINWIDGETCOM_CONTAINER"><a class="COINWIDGETCOM_BUTTON_BITCOIN" href="#"><img src="http://pool.rplant.xyz/static1/img/uranium-x.png"><span>Donate UraniumX</span></a><span>0</span></span>
  
  
  
