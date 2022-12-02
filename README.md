@@ -144,7 +144,18 @@ Press Esc
     :wq //for exiting and saving
     :q! //for exiting without saving
     
+ 
+  sudo nohup ./mn.sh > myscipt.sh &
+Start a process in the background using Nohup
+To start and put the process in the background, you will need to use the nohup as follows:
+
+$ nohup command &
+ 
+ 
+ 
+ 
  <span data-coinwidget-instance="0" class="COINWIDGETCOM_CONTAINER"><a class="COINWIDGETCOM_BUTTON_BITCOIN" href="#"><img src="http://pool.rplant.xyz/static1/img/uranium-x.png"><span>Donate UraniumX</span></a><span>:  UY6suqgq1DXHeJtjhjTN6m8Rqkwy4H82P2</span></span>
+ 
  
  
  
